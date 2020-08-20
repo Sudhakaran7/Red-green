@@ -1,0 +1,67 @@
+You are given with a NxN matrix, which contains, red and green balls, your job is arrange all red balls below or on diagonal elements,
+you have to swap the rows inorder to bring all the red balls below or on diagonal elements, return the minimum number of swap of rows.
+if it can't be arranged, then print -1.
+
+Input Description:
+First line contains, N the size of the square matrix
+Rest lines contains NxN matrix.
+
+Output Description:
+Print the minimum number of swaps to arrange red balls, if it cant't arranged then print -1.
+
+Sample Input:
+3
+G G R
+R R G
+R R G
+
+Sample Output:
+1
+
+Explanation:
+We have to swap the first and last rows to arrange by the given condition. so we need 1 swap to do that arrangement.
+
+Sample Input:
+2
+R G
+R R
+
+Sample Output:
+0
+
+Sample Input:
+2
+G R
+G R
+
+Sample Output:
+-1
+
+Sample Input:
+4
+G R G R
+R G G R
+R G R R
+R R R R
+
+Sample Output:
+-1
+
+Sample Input:
+3
+R G G
+R R G
+G G R
+
+Sample Output:
+0
+
+Sample Input:
+4
+R G G G
+G R R G
+G G R G
+R R G R
+
+Sample Output:
+1
